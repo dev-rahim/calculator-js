@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-200">
+    <header>
+        <!-- <h1 class="text-6xl text-center mt-6 text-orange-300 w-4/6 mx-auto">Calculator</h1> -->
+    </header>
+    <main>
+        <section class="w-4/12 bg-white mx-auto my-12 rounded-md">
+            <div class="w-5/6 mx-auto pt-8">
+                <input id="input-fild" class=" w-full border-b-gray-300 border-b-2 py-5 focus:bottom-0" type="text">
+                <div class="grid grid-cols-4 mt-5 gap-4 text-4xl px-2 py-4 w-full mx-auto text-center">
+                    <div id="b-c" class="button text-green-500">C</div>
+                    <div id="b-modulas" class="button text-green-500"><span class="text-4xl">/</div>
+                    <div id="b-devide" class="button text-green-500">*</div>
+                    <div id="b-devide" class="button text-green-500">&larr;</div>
+                    <div id="b-7" class="button">7</div>
+                    <div id="b-8" class="button">8</div>
+                    <div id="b-9" class="button">9</div>
+                    <div id="b-multiply" class="button text-green-500 text-4xl">-</div>
+                    <div id="b-4" class="button">4</div>
+                    <div id="b-5" class="button">5</div>
+                    <div id="b-6" class="button">6</div>
+                    <div id="b-minus" class="button text-green-500 text-4xl ">+</div>
+                    <div id="b-1" class="button">1</div>
+                    <div id="b-2" class="button">2</div>
+                    <div id="b-3" class="button">3</div>
+                    <div id="b-plus" class="button text-green-500 text-4xl">.</div>
+                    <div id="b-point" class="button text-4xl">(</div>
+                    <div id="b-0" class="button">0</div>
+                    <div id="b-point" class="button text-4xl">)</div>
+                    <div id="b-equal" class="button text-green-500 text-4xl">=</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
